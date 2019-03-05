@@ -11,5 +11,7 @@ int main(){
 
 	for(int i=0;i<num;i++)
 	{sum=(arr[i]*sum)% (1000000007);} // for overflowed variable we use modulus 1000000007.
-	printf("%llu\n", sum);       
+	printf("%llu\n", sum);
+	free(arr);
+	return 0;
 }
