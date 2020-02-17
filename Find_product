@@ -3,7 +3,7 @@ int main(){
 	int num;
 	long int sum=1;
 	//int arr[10000]={1};// static allocation array
-	int *arr;
+	int *arr= NULL;
 	scanf("%d", &num); 
         arr=(int*)malloc(sizeof(int)*num);// Dynamic allocating array
 	for(int i=0;i<num;i++){
