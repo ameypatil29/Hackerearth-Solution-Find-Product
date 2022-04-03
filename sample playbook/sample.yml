@@ -1,5 +1,0 @@
---- # This is sample YAMl FIle
-- hosts: demo
-- name: ansible
-- become: yes
-- connection: ssh
